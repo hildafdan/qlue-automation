@@ -3,7 +3,7 @@
 #Test case
 - Render web
 - Render menu
-- Verify page
+- Render page
 - Verify address
 
 #Tools
