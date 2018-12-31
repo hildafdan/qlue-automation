@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite3" time="87" tests="9" failures="0" errors="0">
+   <testsuite name="suite3" tests="9" failures="0" errors="0" time="87" timestamp="2019-01-01 01:15:03" hostname="USER-PC - A456UQ-HILDA.mshome.net" id="Test Suites/suite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite3\\20190101_011501"/>
+         <property name="logFiles" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite3\\20190101_011501\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER-PC - A456UQ-HILDA.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="86a84adeb27e30950e6f802deff53abc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:15:03 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:15:04 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:15:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:15:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-01 01:15:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 3 - qlue x mycity" classname="Test Cases/case 3 - qlue x mycity" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:15:21 - [TEST_CASE][PASSED] - Test Cases/case 3 - qlue x mycity: Test Cases/case 3 - qlue x mycity
+
+2019-01-01 01:15:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Solutions")): Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:15:27 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:15:27 - [MESSAGE][PASSED] - Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:15:27 - [TEST_STEP][PASSED] - verifyEqual(title, "Solution - Qlue", STOP_ON_FAILURE): Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:15:27 - [MESSAGE][PASSED] - Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:15:27 - [TEST_STEP][PASSED] - body = getText(findTestObject("Page_Solution - Qlue/body_About UsSolutionsCareerEN")): Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:15:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:15:28 - [TEST_STEP][PASSED] - bodyLow = body.toLowerCase(): null
+
+2019-01-01 01:15:28 - [TEST_STEP][PASSED] - if (!(bodyLow.contains("qlue x mycity"))): null
+
+2019-01-01 01:15:28 - [TEST_STEP][PASSED] - comment("Page does not contain menu Qlue x MyCity"): null
+
+2019-01-01 01:15:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:15:31 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:15:31 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:15:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:15:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:15:32 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:15:32 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:15:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:15:53 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 3 - qluework" classname="Test Cases/case 3 - qluework" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:15:53 - [TEST_CASE][PASSED] - Test Cases/case 3 - qluework: Test Cases/case 3 - qluework
+
+2019-01-01 01:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Solutions")): Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:16:01 - [MESSAGE][PASSED] - Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - verifyEqual(title, "Solution - Qlue", STOP_ON_FAILURE): Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:16:01 - [MESSAGE][PASSED] - Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - body = getText(findTestObject("Page_Solution - Qlue/body_About UsSolutionsCareerEN")): Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:16:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - bodyLow = body.toLowerCase(): null
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - if (!(bodyLow.contains("qluework"))): null
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - comment("Page does not contain menu QlueWork"): null
+
+2019-01-01 01:16:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:16:04 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:16:04 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:16:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:16:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:16:05 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:16:05 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:16:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:16:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 3 - qluevision" classname="Test Cases/case 3 - qluevision" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:16:22 - [TEST_CASE][PASSED] - Test Cases/case 3 - qluevision: Test Cases/case 3 - qluevision
+
+2019-01-01 01:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Solutions")): Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Solutions' is clicked on
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:16:27 - [MESSAGE][PASSED] - Current window's title is: 'Solution - Qlue'
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - verifyEqual(title, "Solution - Qlue", STOP_ON_FAILURE): Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:16:27 - [MESSAGE][PASSED] - Actual object 'Solution - Qlue' and expected object 'Solution - Qlue' are equal
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - body = getText(findTestObject("Page_Solution - Qlue/body_About UsSolutionsCareerEN")): Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:16:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Solution - Qlue/body_About UsSolutionsCareerEN' is: 'About Us
+Solutions
+Career
+EN
+We build solutions to transform and maximize the way organizations use their data.
+Our users are at the center of our technological development. Today, our solutions are impacting millions of people in national and city governments, businesses, and organizations, to address challenges previously impossible to solve.
+Save Cost
+
+Improve efficiency, recover lost revenue, and create new revenue streams with our machine learning capabilities and predictive analytics
+Increase Overall Performance
+
+Access a full range of insights on your KPI monitoring with our big data technology and unleash your optimum potential.
+Faster & more Accurate Decision Making
+
+We help to integrate these data to produce meaningful information that you can act upon, immediately.
+Integrate data, and produce insights for leaders to make business decisions
+Smart Governance
+Qlue helps to solve urbanization problems and promote transparency between governments and their citizens. We are doing this by capturing data from various sources, integrated into a one-stop dashboard access, and visualized as actionable insight. Our analytics platform is capable to understand and predict behaviors of cities and citizen, thus helping leaders make better policy decisions, especially when it matters most.
+Smart Mobility and Traffic
+Cities undergoing urbanization growth face severe mobility and traffic issues. Qlue gathers and analyzes millions of data by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans, building better traffic modeling, and implement better policies. Cities undergoing urbanization growth face various challenges, one of which is the unbalanced growth of vehicles to roads. Qlue gathers and analyzes millions of data related to mobility, traffic, and other urbanization issues,  by using Computer Vision Technology to capture real-time traffic conditions, so that decision-makers can develop infrastructure plans and policies based on real data.
+Disaster Response Management
+Disaster Response situations require intense collaboration between volunteers, governments and law enforcement agencies, in order to effectively distribute aids to refugee camps and identify damage estimation. Qlue provides a sophisticated yet easy-to-use application and platform to capture damages so volunteers know what to bring and where to distribute, as well as facilitating the better recovery process. This practical approach saves time to distribute aids and saves cost from prolonged recovery.
+Security and Safety
+Qlue works with law enforcement agencies and businesses by optimizing security and safety management. Our solution provides tools to help in identifying potential threats and provide an immediate response by dispatching personnel effectively. Our machine learning will also provide data-driven recommendations for decision-makers to predict threat prone areas in the future.
+Data Intelligence
+When you want to grow revenue, improve operational efficiency, or predicting trends, the biggest challenge is to find the right tools that can fit your specific problems. Qlue empowers governments and businesses with an AI-driven platform that can help you to understand what is happening, and anticipate what is going to happen next.
+Jalan Pejaten Barat No. 13, RT.1/RW.8, Pejaten
+Barat, Pasar Minggu, Kota Jakarta Selatan, Daerah
+Khusus Ibukota Jakarta 12510
++62 21 71793635
+info@qlue.co.id
+We're Hiring!
+Click Here and let’s smarten up our nation, one Qlue at a time!
+Press Kit
+Click Here for logo, company profile and portfolio.
+© 2018 Qlue Copyright
+Contact About Privacy Policy Blog We’re Hiring! Partner'
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - bodyLow = body.toLowerCase(): null
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - if (!(bodyLow.contains("qluevision"))): null
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - comment("Page does not contain menu QlueVision"): null
+
+2019-01-01 01:16:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:16:30 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:16:30 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:16:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:16:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-01 01:15:03 - [TEST_SUITE][PASSED] - suite3: Test Cases/case 1 - close web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

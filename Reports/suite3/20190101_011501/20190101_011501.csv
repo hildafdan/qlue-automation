@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite3,Chrome 71.0.3578.98,,2019-01-01 01:15:03,2019-01-01 01:16:31,1m - 27.464s,PASSED
+,,,,,,
+Test Cases/case 1 - open web,Chrome 71.0.3578.98,,2019-01-01 01:15:03,2019-01-01 01:15:21,17.422s,PASSED
+"openBrowser(""http://qlue.co.id"")",Chrome 71.0.3578.98,,2019-01-01 01:15:04,2019-01-01 01:15:21,17.129s,PASSED
+,,,,,,
+Test Cases/case 3 - qlue x mycity,Chrome 71.0.3578.98,,2019-01-01 01:15:21,2019-01-01 01:15:31,9.799s,PASSED
+"click(findTestObject(""Page_Home - Qlue/a_Solutions""))",Chrome 71.0.3578.98,,2019-01-01 01:15:21,2019-01-01 01:15:27,6.339s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2019-01-01 01:15:27,2019-01-01 01:15:27,0.025s,PASSED
+"verifyEqual(title, ""Solution - Qlue"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-01 01:15:27,2019-01-01 01:15:27,0.028s,PASSED
+"body = getText(findTestObject(""Page_Solution - Qlue/body_About UsSolutionsCareerEN""))",Chrome 71.0.3578.98,,2019-01-01 01:15:27,2019-01-01 01:15:28,0.123s,PASSED
+bodyLow = body.toLowerCase(),Chrome 71.0.3578.98,,2019-01-01 01:15:28,2019-01-01 01:15:28,0.004s,PASSED
+"if (!(bodyLow.contains(""qlue x mycity"")))",Chrome 71.0.3578.98,,2019-01-01 01:15:28,2019-01-01 01:15:28,0.015s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-01 01:15:28,2019-01-01 01:15:31,3.014s,PASSED
+,,,,,,
+Test Cases/case 1 - close web,Chrome 71.0.3578.98,,2019-01-01 01:15:31,2019-01-01 01:15:32,0.911s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-01 01:15:31,2019-01-01 01:15:32,0.754s,PASSED
+,,,,,,
+Test Cases/case 1 - open web,Chrome 71.0.3578.98,,2019-01-01 01:15:32,2019-01-01 01:15:53,21.018s,PASSED
+"openBrowser(""http://qlue.co.id"")",Chrome 71.0.3578.98,,2019-01-01 01:15:32,2019-01-01 01:15:53,20.995s,PASSED
+,,,,,,
+Test Cases/case 3 - qluework,Chrome 71.0.3578.98,,2019-01-01 01:15:53,2019-01-01 01:16:04,11.728s,PASSED
+"click(findTestObject(""Page_Home - Qlue/a_Solutions""))",Chrome 71.0.3578.98,,2019-01-01 01:15:53,2019-01-01 01:16:01,8.462s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:01,0.008s,PASSED
+"verifyEqual(title, ""Solution - Qlue"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:01,0.002s,PASSED
+"body = getText(findTestObject(""Page_Solution - Qlue/body_About UsSolutionsCareerEN""))",Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:01,0.088s,PASSED
+bodyLow = body.toLowerCase(),Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:01,0.001s,PASSED
+"if (!(bodyLow.contains(""qluework"")))",Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:01,0.002s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-01 01:16:01,2019-01-01 01:16:04,3.001s,PASSED
+,,,,,,
+Test Cases/case 1 - close web,Chrome 71.0.3578.98,,2019-01-01 01:16:04,2019-01-01 01:16:05,0.715s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-01 01:16:04,2019-01-01 01:16:05,0.710s,PASSED
+,,,,,,
+Test Cases/case 1 - open web,Chrome 71.0.3578.98,,2019-01-01 01:16:05,2019-01-01 01:16:22,16.563s,PASSED
+"openBrowser(""http://qlue.co.id"")",Chrome 71.0.3578.98,,2019-01-01 01:16:05,2019-01-01 01:16:22,16.554s,PASSED
+,,,,,,
+Test Cases/case 3 - qluevision,Chrome 71.0.3578.98,,2019-01-01 01:16:22,2019-01-01 01:16:30,8.239s,PASSED
+"click(findTestObject(""Page_Home - Qlue/a_Solutions""))",Chrome 71.0.3578.98,,2019-01-01 01:16:22,2019-01-01 01:16:27,4.972s,PASSED
+title = getWindowTitle(),Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:27,0.010s,PASSED
+"verifyEqual(title, ""Solution - Qlue"", STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:27,0.001s,PASSED
+"body = getText(findTestObject(""Page_Solution - Qlue/body_About UsSolutionsCareerEN""))",Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:27,0.081s,PASSED
+bodyLow = body.toLowerCase(),Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:27,0.001s,PASSED
+"if (!(bodyLow.contains(""qluevision"")))",Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:27,0.002s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-01 01:16:27,2019-01-01 01:16:30,3.003s,PASSED
+,,,,,,
+Test Cases/case 1 - close web,Chrome 71.0.3578.98,,2019-01-01 01:16:30,2019-01-01 01:16:31,0.749s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-01 01:16:30,2019-01-01 01:16:31,0.731s,PASSED

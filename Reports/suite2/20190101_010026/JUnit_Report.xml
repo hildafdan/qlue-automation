@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite2" time="306" tests="18" failures="0" errors="0">
+   <testsuite name="suite2" tests="18" failures="0" errors="0" time="306" timestamp="2019-01-01 01:00:28" hostname="USER-PC - A456UQ-HILDA.mshome.net" id="Test Suites/suite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite2\\20190101_010026"/>
+         <property name="logFiles" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite2\\20190101_010026\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER-PC - A456UQ-HILDA.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="59f5fbb716d790748bc876c66dd00e13"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:00:28 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:00:29 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:00:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:00:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-01 01:00:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - home" classname="Test Cases/case 2 - home" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:00:47 - [TEST_CASE][PASSED] - Test Cases/case 2 - home: Test Cases/case 2 - home
+
+2019-01-01 01:00:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/img")): Object: 'Object Repository/Page_Home - Qlue/img' is clicked on
+
+2019-01-01 01:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/img' is clicked on
+
+2019-01-01 01:00:48 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Home - Qlue'
+
+2019-01-01 01:00:51 - [MESSAGE][PASSED] - Current window's title is: 'Home - Qlue'
+
+2019-01-01 01:00:51 - [TEST_STEP][PASSED] - verifyEqual(title, "Home - Qlue", STOP_ON_FAILURE): Actual object 'Home - Qlue' and expected object 'Home - Qlue' are equal
+
+2019-01-01 01:00:51 - [MESSAGE][PASSED] - Actual object 'Home - Qlue' and expected object 'Home - Qlue' are equal
+
+2019-01-01 01:00:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:00:54 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:00:54 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:00:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:00:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:00:55 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:00:55 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:00:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:01:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - about us" classname="Test Cases/case 2 - about us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:01:15 - [TEST_CASE][PASSED] - Test Cases/case 2 - about us: Test Cases/case 2 - about us
+
+2019-01-01 01:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_About Us")): Object: 'Object Repository/Page_Home - Qlue/a_About Us' is clicked on
+
+2019-01-01 01:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_About Us' is clicked on
+
+2019-01-01 01:01:47 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'About Us - Qlue'
+
+2019-01-01 01:01:47 - [MESSAGE][PASSED] - Current window's title is: 'About Us - Qlue'
+
+2019-01-01 01:01:47 - [TEST_STEP][PASSED] - verifyEqual(title, "About Us - Qlue", STOP_ON_FAILURE): Actual object 'About Us - Qlue' and expected object 'About Us - Qlue' are equal
+
+2019-01-01 01:01:47 - [MESSAGE][PASSED] - Actual object 'About Us - Qlue' and expected object 'About Us - Qlue' are equal
+
+2019-01-01 01:01:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:01:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:01:50 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:01:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:01:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:01:51 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:01:51 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:01:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:02:11 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - projects (blog)" classname="Test Cases/case 2 - projects (blog)" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:02:11 - [TEST_CASE][PASSED] - Test Cases/case 2 - projects (blog): Test Cases/case 2 - projects (blog)
+
+2019-01-01 01:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Blog")): Object: 'Object Repository/Page_Home - Qlue/a_Blog' is clicked on
+
+2019-01-01 01:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Blog' is clicked on
+
+2019-01-01 01:02:18 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Blog - Qlue'
+
+2019-01-01 01:02:18 - [MESSAGE][PASSED] - Current window's title is: 'Blog - Qlue'
+
+2019-01-01 01:02:18 - [TEST_STEP][PASSED] - verifyEqual(title, "Blog - Qlue", STOP_ON_FAILURE): Actual object 'Blog - Qlue' and expected object 'Blog - Qlue' are equal
+
+2019-01-01 01:02:18 - [MESSAGE][PASSED] - Actual object 'Blog - Qlue' and expected object 'Blog - Qlue' are equal
+
+2019-01-01 01:02:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:02:21 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:02:21 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:02:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:02:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:02:22 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:02:22 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:02:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:02:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - city partners (partner)" classname="Test Cases/case 2 - city partners (partner)" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:02:38 - [TEST_CASE][PASSED] - Test Cases/case 2 - city partners (partner): Test Cases/case 2 - city partners (partner)
+
+2019-01-01 01:02:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Partner")): Object: 'Object Repository/Page_Home - Qlue/a_Partner' is clicked on
+
+2019-01-01 01:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Partner' is clicked on
+
+2019-01-01 01:03:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Partner - Qlue/h4_City Partner"), STOP_ON_FAILURE): Object 'Object Repository/Page_Partner - Qlue/h4_City Partner' is visible
+
+2019-01-01 01:03:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Partner - Qlue/h4_City Partner' is visible
+
+2019-01-01 01:03:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:03:05 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:03:05 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:03:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:03:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:03:06 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:03:06 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:03:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:03:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - alliances (partner)" classname="Test Cases/case 2 - alliances (partner)" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:03:25 - [TEST_CASE][PASSED] - Test Cases/case 2 - alliances (partner): Test Cases/case 2 - alliances (partner)
+
+2019-01-01 01:03:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Partner")): Object: 'Object Repository/Page_Home - Qlue/a_Partner' is clicked on
+
+2019-01-01 01:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Partner' is clicked on
+
+2019-01-01 01:03:46 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Partner - Qlue'
+
+2019-01-01 01:03:46 - [MESSAGE][PASSED] - Current window's title is: 'Partner - Qlue'
+
+2019-01-01 01:03:46 - [TEST_STEP][PASSED] - verifyEqual(title, "Partner - Qlue", STOP_ON_FAILURE): Actual object 'Partner - Qlue' and expected object 'Partner - Qlue' are equal
+
+2019-01-01 01:03:46 - [MESSAGE][PASSED] - Actual object 'Partner - Qlue' and expected object 'Partner - Qlue' are equal
+
+2019-01-01 01:03:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:03:49 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:03:49 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:03:49 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:03:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 01:03:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:04:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:04:12 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 01:04:12 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 01:04:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 01:04:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 01:04:35 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 2 - were hiring (career)" classname="Test Cases/case 2 - were hiring (career)" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:04:35 - [TEST_CASE][PASSED] - Test Cases/case 2 - were hiring (career): Test Cases/case 2 - were hiring (career)
+
+2019-01-01 01:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Home - Qlue/a_Were Hiring")): Object: 'Object Repository/Page_Home - Qlue/a_Were Hiring' is clicked on
+
+2019-01-01 01:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Qlue/a_Were Hiring' is clicked on
+
+2019-01-01 01:05:31 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Career - Qlue'
+
+2019-01-01 01:05:31 - [MESSAGE][PASSED] - Current window's title is: 'Career - Qlue'
+
+2019-01-01 01:05:31 - [TEST_STEP][PASSED] - verifyEqual(title, "Career - Qlue", STOP_ON_FAILURE): Actual object 'Career - Qlue' and expected object 'Career - Qlue' are equal
+
+2019-01-01 01:05:31 - [MESSAGE][PASSED] - Actual object 'Career - Qlue' and expected object 'Career - Qlue' are equal
+
+2019-01-01 01:05:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 01:05:34 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:05:34 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:05:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:05:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-01 01:00:28 - [TEST_SUITE][PASSED] - suite2: Test Cases/case 1 - close web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

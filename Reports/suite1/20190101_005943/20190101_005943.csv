@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite1,Chrome 71.0.3578.98,,2019-01-01 00:59:46,2019-01-01 01:00:06,20.811s,PASSED
+,,,,,,
+Test Cases/case 1 - open web,Chrome 71.0.3578.98,,2019-01-01 00:59:46,2019-01-01 01:00:05,19.255s,PASSED
+"openBrowser(""http://qlue.co.id"")",Chrome 71.0.3578.98,,2019-01-01 00:59:46,2019-01-01 01:00:05,18.863s,PASSED
+,,,,,,
+Test Cases/case 1 - close web,Chrome 71.0.3578.98,,2019-01-01 01:00:05,2019-01-01 01:00:06,1.056s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-01 01:00:05,2019-01-01 01:00:06,0.788s,PASSED

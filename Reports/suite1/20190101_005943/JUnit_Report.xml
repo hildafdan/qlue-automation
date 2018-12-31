@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite1" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="suite1" tests="2" failures="0" errors="0" time="20" timestamp="2019-01-01 00:59:46" hostname="USER-PC - A456UQ-HILDA.mshome.net" id="Test Suites/suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite1\\20190101_005943"/>
+         <property name="logFiles" value="C:\\Users\\USER-PC\\Katalon Studio\\qlue-automation\\Reports\\suite1\\20190101_005943\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER-PC - A456UQ-HILDA.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="5d2457dcbbc239e1caf9cefcf72ef8ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/case 1 - open web" classname="Test Cases/case 1 - open web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 00:59:46 - [TEST_CASE][PASSED] - Test Cases/case 1 - open web: Test Cases/case 1 - open web
+
+2019-01-01 00:59:46 - [TEST_STEP][PASSED] - openBrowser("http://qlue.co.id"): Browser is opened with url: 'http://qlue.co.id'
+
+2019-01-01 00:59:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 00:59:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-01 01:00:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qlue.co.id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/case 1 - close web" classname="Test Cases/case 1 - close web" status="PASSED">
+         <system-out><![CDATA[2019-01-01 01:00:05 - [TEST_CASE][PASSED] - Test Cases/case 1 - close web: Test Cases/case 1 - close web
+
+2019-01-01 01:00:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 01:00:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-01 00:59:46 - [TEST_SUITE][PASSED] - suite1: Test Cases/case 1 - close web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
